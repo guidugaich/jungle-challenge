@@ -1,8 +1,24 @@
-
+import Header from "./components/Header";
+import AvailableNow from "./components/AvailableNow";
+import Hero from "./components/Hero";
+import Form from "./components/Form";
+import Payment from "./components/Payment";
+import Description from "./components/Description";
+import ComingSoon from "./components/ComingSoon";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <h1>Jungle challenge</h1>
+    <>
+      <Header />
+      <AvailableNow />
+      <Hero />
+      <Form />
+      <Payment />
+      <Description />
+      <ComingSoon />
+      <Footer />
+    </>
   );
 }
 
