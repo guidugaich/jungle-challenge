@@ -5,4 +5,14 @@
   max-width: 1440px;
   height: 616px;
   background-color:#5E20A4;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-middle-section {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
 }
