@@ -15,6 +15,7 @@ function App() {
       <Header />
       <AvailableNow />
       <Hero />
+      <hr className="section-divider"/>
       <Form />
       <Payment />
       <Description />

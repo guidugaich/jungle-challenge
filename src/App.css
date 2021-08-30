@@ -7,3 +7,10 @@
 	vertical-align: baseline;
   font-family: 'Inter', sans-seriff;
 }
+
+.section-divider {
+  width: 784px;
+  height: 0px;
+  border: 2px solid #DFDFDF;
+  margin: auto;
+}
