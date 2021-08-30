@@ -1,0 +1,40 @@
+.header-title-container {
+  max-width: 584px;
+}
+
+.header-title-main {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  /* or 120% */
+  letter-spacing: -1px;
+
+/* White */
+
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.header-description-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+  margin-bottom: 52px;
+}
+
+.play-action {
+  display: flex;
+  align-items: center;
+}
+
+.play-action span {
+  color: #ffffff;
+  margin-left: 16px;
+}
+
