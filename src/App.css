@@ -1,4 +1,9 @@
-.page-container {
-  width: 100vw;
-  height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  font-family: 'Inter', sans-seriff;
 }
