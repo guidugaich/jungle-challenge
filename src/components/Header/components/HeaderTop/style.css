@@ -1,0 +1,11 @@
+.header-top-container {
+  display: flex;
+}
+
+.top-left {
+  display: flex;
+}
+
+.top-right {
+  display: flex;
+}
