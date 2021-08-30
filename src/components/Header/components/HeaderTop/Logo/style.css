@@ -1,0 +1,40 @@
+.header-top-logo-shape {
+  width: 48px;
+  height: 64px;
+  background: #00C88C;
+  border-radius: 0px 0px 32px 32px;
+  position: relative;
+  z-index: 0;
+  margin-left: 20px
+}
+
+.header-top-logo-smile {
+  width: 22px;
+  height: 17px;
+  position: absolute;
+  top: 34.45px;
+  bottom: 13px;
+  right: 13px;
+  left: 13px;
+  z-index: 1;
+}
+
+.header-top-logo-eye1 {
+  width: 3px;
+  height: 3px;
+  position: absolute;
+  top: 29px;
+  left: 13px;
+  right: 32px;
+  bottom: 32px;
+}
+
+.header-top-logo-eye2 {
+  width: 3px;
+  height: 3px;
+  position: absolute;
+  top: 29px;
+  right: 13px;
+  left: 32px;
+  bottom: 32px;
+}
