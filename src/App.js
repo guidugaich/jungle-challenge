@@ -2,7 +2,7 @@ import './App.css'
 
 import Header from "./components/Header/";
 import AvailableNow from "./components/AvailableNow/";
-import Hero from "./components/Hero";
+import Hero from "./components/Hero/";
 import Form from "./components/Form";
 import Payment from "./components/Payment";
 import Description from "./components/Description";
