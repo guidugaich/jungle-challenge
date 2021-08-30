@@ -3,4 +3,11 @@
   margin-right: 32px;
   margin-left: 23px;
   padding: 0;
+  color: #ffffff;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
 }
