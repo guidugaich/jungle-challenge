@@ -17,6 +17,10 @@ export default function Form() {
     event.preventDefault();
 
     fetch(API_URL, {
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
       body: JSON.stringify({ name, email }),
       method: "POST"
     }).then(r => console.log(r))
