@@ -1,5 +1,5 @@
 .header-top-logo-shape {
-  width: 48px;
+  min-width: 48px;
   height: 64px;
   background: #00C88C;
   border-radius: 0px 0px 32px 32px;
