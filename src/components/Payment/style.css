@@ -1,0 +1,46 @@
+.payment-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  margin: 96px 0;
+}
+
+.payment-section-content h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  color: #3D3D3D;
+  margin-bottom: 40px;
+}
+
+.payment-section-content p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #3D3D3D;
+  max-width: 484px;
+  margin-bottom: 40px;
+}
+
+.payment-section-link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #5E20A4;
+}
+
+.payment-section-container img {
+  width: 456px;
+  height: 336px;
+  margin-right: 44px;
+}
+
