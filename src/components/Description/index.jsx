@@ -4,7 +4,6 @@ import './style.css';
 
 import ImageSection4 from '../../assets/ImageSection4.svg';
 
-
 export default function Description() {
   return (
     <div className="desc-section-container">
