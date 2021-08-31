@@ -1,0 +1,30 @@
+.create-share-btn-container {
+  background-color: #5E20A4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 304px;
+  height: 68px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.create-share-btn-container img {
+  margin: 19px 23px;
+}
+
+.create-share-btn-text {
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.create-share-btn-text p:first-of-type {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.create-share-btn-text p:nth-of-type(2) {
+  font-size: 12px;
+  line-height: 16px;
+}
