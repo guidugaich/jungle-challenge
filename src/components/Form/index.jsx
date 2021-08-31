@@ -2,11 +2,16 @@ import React, { useState } from 'react';
 
 import './style.css'; 
 
+import Loading from '../Loading/'
+
 const API_URL = 'https://api.jungledevs.com/api/v1/challenge-newsletter/';
 
 export default function Form() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [formSuccess, setFormSuccess] = useState(false);
+  const [formAnswered, setFormAnswered] = useState(false);
 
   function handleChange({target}) {
     if (target.name === 'name') setName(target.value)
@@ -15,7 +20,8 @@ export default function Form() {
 
   function handleSubmit(event) {
     event.preventDefault();
-
+    setLoading(true)
+    
     fetch(API_URL, {
       headers: {
         'Accept': 'application/json',
@@ -23,7 +29,16 @@ export default function Form() {
       },
       body: JSON.stringify({ name, email }),
       method: "POST"
-    }).then(r => console.log(r))
+    }).then(res => {
+      if (res.ok) {
+        setFormSuccess(true)
+      } else {
+        console.log('errou')
+        setFormSuccess(false)
+      }
+      setLoading(false);
+      if (!formAnswered) setFormAnswered(true)
+    })
   }
 
   function enableSubmitForm() {
@@ -52,10 +67,17 @@ export default function Form() {
         </label>
         <button
           type="submit"
-          disabled={!enableSubmitForm()}
+          disabled={(!enableSubmitForm() && !loading)}
         >
-          Send
+          {loading ? <Loading /> : <>Send</>}
         </button>
+        {formAnswered && (
+          <span
+            className={formSuccess ? "form-success" : "form-error"}
+          >
+            {formSuccess ? "Success!" : "Error. Try again"}
+          </span>
+        )}
       </form>
     </div>
   )

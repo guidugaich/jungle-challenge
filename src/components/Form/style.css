@@ -60,3 +60,12 @@
   opacity: 0.2;
 }
 
+.form-success {
+  color: green;
+  margin-left: 12px;
+}
+
+.form-error {
+  color: red;
+  margin-left: 12px;
+}
