@@ -1,0 +1,32 @@
+.coming-soon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 784px;
+  margin-top: 96px;
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.coming-soon-container img {
+  width: 216px;
+  margin-bottom: 40px;
+}
+
+.coming-soon-container h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  color: #3D3D3D;
+  margin-bottom: 40px;
+}
+
+.coming-soon-container p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #3D3D3D;
+}
