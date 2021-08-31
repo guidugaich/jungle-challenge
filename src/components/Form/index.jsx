@@ -26,6 +26,11 @@ export default function Form() {
     }).then(r => console.log(r))
   }
 
+  function enableSubmitForm() {
+    const emailRegex = /[a-z0-9]+@[a-z0-9]+(\.com)$/gi;
+    return emailRegex.test(email);
+  }
+
   return (
     <div className="form-section-container">
       <h3>Are you a parent without a nanny and looking to share?</h3>
@@ -45,7 +50,12 @@ export default function Form() {
             onChange={handleChange}
           />
         </label>
-        <button type="submit">Send</button>
+        <button
+          type="submit"
+          disabled={!enableSubmitForm()}
+        >
+          Send
+        </button>
       </form>
     </div>
   )
