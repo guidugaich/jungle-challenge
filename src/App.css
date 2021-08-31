@@ -8,9 +8,10 @@
   font-family: 'Inter', sans-seriff;
 }
 
-.section-divider {
-  width: 784px;
-  height: 0px;
-  border: 2px solid #DFDFDF;
-  margin: auto;
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background-color: #FAF9F7;
 }
