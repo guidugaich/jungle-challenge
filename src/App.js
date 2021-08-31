@@ -7,7 +7,7 @@ import Form from "./components/Form/";
 import Payment from "./components/Payment/";
 import Description from "./components/Description/";
 import ComingSoon from "./components/ComingSoon/";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/";
 
 import SectionDivider from './components/SectionDivider/'
 
