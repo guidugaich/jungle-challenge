@@ -9,15 +9,21 @@ import Description from "./components/Description";
 import ComingSoon from "./components/ComingSoon";
 import Footer from "./components/Footer";
 
+import SectionDivider from './components/SectionDivider/'
+
 function App() {
   return (
     <div class='page-container'>
       <Header />
       <AvailableNow />
       <Hero />
-      <hr className="section-divider"/>
+
+      <SectionDivider />
+
       <Form />
+      <SectionDivider />
       <Payment />
+      <SectionDivider />
       <Description />
       <ComingSoon />
       <Footer />
