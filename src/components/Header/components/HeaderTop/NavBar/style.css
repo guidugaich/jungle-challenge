@@ -9,3 +9,10 @@ nav {
 nav a {
   margin: 0 16px;
 }
+
+@media screen and (max-width: 600px) {
+  nav {
+    font-size: 0;
+    width: 0px;
+  }
+}
