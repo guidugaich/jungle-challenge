@@ -1,0 +1,30 @@
+.footer-link-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 90px;
+}
+
+.footer-central-links span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 15px;
+}
+
+.footer-social-media {
+  display: flex;
+}
+
+.social-media-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #DFDFDF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 8px;
+}
