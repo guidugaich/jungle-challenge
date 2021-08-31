@@ -54,3 +54,7 @@
   line-height: 20px;
 }
 
+.form-section-container button:disabled {
+  opacity: 0.2;
+}
+
