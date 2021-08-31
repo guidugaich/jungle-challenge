@@ -36,5 +36,6 @@
 .play-action span {
   color: #ffffff;
   margin-left: 16px;
+  text-decoration: underline;
 }
 
