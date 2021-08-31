@@ -4,6 +4,9 @@
   justify-content: center;
   border: 1px solid #DFDFDF;
   padding: 28px 0;
+  width: 100%;
+  max-width: 1440px;
+  background-color: #ffffff;
 }
 
 .available-now-container img {

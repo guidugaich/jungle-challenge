@@ -5,6 +5,8 @@
   justify-content: center;
   background-color: #FAF9F7;
   padding: 64px 0;
+  width: 100%;
+  max-width: 1440px;
 }
 
 .form-section-container h3 {
