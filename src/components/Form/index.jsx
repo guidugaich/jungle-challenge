@@ -6,14 +6,14 @@ import Loading from '../Loading/'
 
 const API_URL = 'https://api.jungledevs.com/api/v1/challenge-newsletter/';
 
-export default function Form() {
+export default function Form({title, description, onAction}) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [loading, setLoading] = useState(false);
   const [formSuccess, setFormSuccess] = useState(false);
   const [formAnswered, setFormAnswered] = useState(false);
 
-  function handleChange({target}) {
+  function handleChange({ target }) {
     if (target.name === 'name') setName(target.value)
     if (target.name === 'email') setEmail(target.value)
   }
@@ -21,7 +21,7 @@ export default function Form() {
   function handleSubmit(event) {
     event.preventDefault();
     setLoading(true)
-    
+
     fetch(API_URL, {
       headers: {
         'Accept': 'application/json',
