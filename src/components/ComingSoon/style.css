@@ -30,3 +30,24 @@
   line-height: 28px;
   color: #3D3D3D;
 }
+
+@media screen and (max-width: 600px) {
+  .coming-soon-container {
+    margin: 64px 16px;
+  }
+
+  .coming-soon-container img {
+    margin-bottom: 24px;
+  }
+
+  .coming-soon-container h2 {
+    width: 328px;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 16px;
+  }
+
+  .coming-soon-container p {
+    width: 328px;
+  }
+}

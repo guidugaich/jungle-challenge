@@ -34,3 +34,30 @@
   line-height: 24px;
   color: #000000;
 }
+
+@media screen and (max-width: 600px) {
+  .available-now-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .available-now-link {
+    width: 212px;
+    margin-bottom: 12px;
+  }
+
+  .available-now-schedule {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .available-now-container img {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}

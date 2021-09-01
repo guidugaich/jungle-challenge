@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   width: 100%;
   max-width: 1440px;
-  height: 616px;
+  min-height: 616px;
   background-color:#5E20A4;
   display: flex;
   flex-direction: column;
@@ -14,5 +14,11 @@
   margin: auto;
   align-items: center;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px) {
+  .header-middle-section img {
+    display: none;
+  }
 }

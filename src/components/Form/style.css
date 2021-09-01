@@ -7,6 +7,7 @@
   padding: 64px 0;
   width: 100%;
   max-width: 1440px;
+  text-align: center;
 }
 
 .form-section-container h3 {
@@ -60,3 +61,43 @@
   opacity: 0.2;
 }
 
+.form-success {
+  color: green;
+  margin-left: 12px;
+}
+
+.form-error {
+  color: red;
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .form-section-container h3, .form-section-container p {
+    margin: 0 16px 16px;
+  }
+
+
+
+  .form-section-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  .form-section-container input {
+    width: 328px;
+    padding: 12px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .form-section-container button {
+    width: 328px;
+  }
+
+  .form-success, .form-error {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+}
