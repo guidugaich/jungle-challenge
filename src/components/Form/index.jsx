@@ -6,7 +6,7 @@ import Loading from '../Loading/'
 
 const API_URL = 'https://api.jungledevs.com/api/v1/challenge-newsletter/';
 
-export default function Form() {
+export default function Form({title, description, onAction}) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [loading, setLoading] = useState(false);
@@ -21,7 +21,7 @@ export default function Form() {
   function handleSubmit(event) {
     event.preventDefault();
     setLoading(true)
-    
+
     fetch(API_URL, {
       headers: {
         'Accept': 'application/json',
@@ -47,8 +47,8 @@ export default function Form() {
 
   return (
     <div className="form-section-container">
-      <h3>Are you a parent without a nanny and looking to share?</h3>
-      <p>Leave us your name and email and we’ll update you as soon as a share becomes available in your area!</p>
+      <h3>{title}</h3>
+      <p>{description}</p>
       <form onSubmit={handleSubmit}>
         <label>
           <input
@@ -67,6 +67,7 @@ export default function Form() {
         <button
           type="submit"
           disabled={(!enableSubmitForm() && !loading)}
+          onClick={onAction}
         >
           {loading ? <Loading /> : <>Send</>}
         </button>
