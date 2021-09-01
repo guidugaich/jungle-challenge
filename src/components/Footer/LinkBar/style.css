@@ -28,3 +28,29 @@
   justify-content: center;
   margin: 0 8px;
 }
+
+@media screen and (max-width: 600px) {
+  .footer-link-bar-container {
+    flex-direction: column;
+  }
+
+  .footer-link-bar-container > img {
+    margin-bottom: 40px;
+  }
+
+  .footer-central-links {
+    width: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-central-links span {
+    margin: 8px 16px;
+  }
+
+  .footer-social-media {
+    margin-top: 24px;
+  }
+}
