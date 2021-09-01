@@ -40,3 +40,28 @@
   width: 984px;
   margin-bottom: 104px;
 }
+
+@media screen and (max-width: 600px) {
+  .desc-section-container {
+    margin: 64px 0;
+  }
+
+  .desc-section-container h2 {
+    margin-top: 0;
+    width: 260px;
+    font-size: 22px;
+  }
+
+  .desc-section-container p {
+    margin: 16px 16px 24px;
+  }
+
+  .desc-section-link {
+    margin-bottom: 0;
+    width: 328px;
+  }
+
+  .desc-section-container img {
+    display: none;
+  }
+}
