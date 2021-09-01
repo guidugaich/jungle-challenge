@@ -19,6 +19,6 @@
 
 @media screen and (max-width: 600px) {
   .header-middle-section img {
-    height: 0;
+    display: none;
   }
 }
