@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/hapu-nanny-share/static/css/main.99dac2e3.chunk.css",
+    "main.js": "/hapu-nanny-share/static/js/main.370213cb.chunk.js",
+    "main.js.map": "/hapu-nanny-share/static/js/main.370213cb.chunk.js.map",
+    "runtime-main.js": "/hapu-nanny-share/static/js/runtime-main.1f23ae89.js",
+    "runtime-main.js.map": "/hapu-nanny-share/static/js/runtime-main.1f23ae89.js.map",
+    "static/js/2.fbf92088.chunk.js": "/hapu-nanny-share/static/js/2.fbf92088.chunk.js",
+    "static/js/2.fbf92088.chunk.js.map": "/hapu-nanny-share/static/js/2.fbf92088.chunk.js.map",
+    "static/js/3.9fdfc4d7.chunk.js": "/hapu-nanny-share/static/js/3.9fdfc4d7.chunk.js",
+    "static/js/3.9fdfc4d7.chunk.js.map": "/hapu-nanny-share/static/js/3.9fdfc4d7.chunk.js.map",
+    "index.html": "/hapu-nanny-share/index.html",
+    "static/css/main.99dac2e3.chunk.css.map": "/hapu-nanny-share/static/css/main.99dac2e3.chunk.css.map",
+    "static/js/2.fbf92088.chunk.js.LICENSE.txt": "/hapu-nanny-share/static/js/2.fbf92088.chunk.js.LICENSE.txt",
+    "static/media/Calendar.aa43e26a.svg": "/hapu-nanny-share/static/media/Calendar.aa43e26a.svg",
+    "static/media/Facebook.52d5df86.svg": "/hapu-nanny-share/static/media/Facebook.52d5df86.svg",
+    "static/media/HapuLogo.f5bd6642.svg": "/hapu-nanny-share/static/media/HapuLogo.f5bd6642.svg",
+    "static/media/ImageHeader.b5a24ca9.svg": "/hapu-nanny-share/static/media/ImageHeader.b5a24ca9.svg",
+    "static/media/ImageSection1.03b2b307.svg": "/hapu-nanny-share/static/media/ImageSection1.03b2b307.svg",
+    "static/media/ImageSection3.b1719e95.svg": "/hapu-nanny-share/static/media/ImageSection3.b1719e95.svg",
+    "static/media/ImageSection4.de931c08.svg": "/hapu-nanny-share/static/media/ImageSection4.de931c08.svg",
+    "static/media/ImageSection5.665be6a6.svg": "/hapu-nanny-share/static/media/ImageSection5.665be6a6.svg",
+    "static/media/Instagram.75afcdcd.svg": "/hapu-nanny-share/static/media/Instagram.75afcdcd.svg",
+    "static/media/PathCopy.006e8a73.svg": "/hapu-nanny-share/static/media/PathCopy.006e8a73.svg",
+    "static/media/PlayButton.7a34ea28.svg": "/hapu-nanny-share/static/media/PlayButton.7a34ea28.svg",
+    "static/media/ProfileImage.1be06b6c.svg": "/hapu-nanny-share/static/media/ProfileImage.1be06b6c.svg",
+    "static/media/Twitter.eb814650.svg": "/hapu-nanny-share/static/media/Twitter.eb814650.svg",
+    "static/media/style.css": "/hapu-nanny-share/static/media/header-background.5d2d937a.svg",
+    "static/media/oval.2293db9f.svg": "/hapu-nanny-share/static/media/oval.2293db9f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f23ae89.js",
+    "static/js/2.fbf92088.chunk.js",
+    "static/css/main.99dac2e3.chunk.css",
+    "static/js/main.370213cb.chunk.js"
+  ]
+}
