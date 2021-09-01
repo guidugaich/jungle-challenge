@@ -22,7 +22,6 @@ function App() {
 
       <SectionDivider />
 
-
       <Experiment trackedAction="Different texts"
         id="03883355-e59e-4b29-82cf-0da99aba401c">
         <Variant description={`Original`}>
@@ -45,12 +44,16 @@ function App() {
         </Variant>
       </Experiment>
 
-      {/* <Form /> */}
       <SectionDivider />
+
       <Payment />
+
       <SectionDivider />
+
       <Description />
+
       <SectionDivider />
+      
       <ComingSoon />
       <Footer />
     </div>
