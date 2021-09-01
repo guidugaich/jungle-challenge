@@ -47,8 +47,8 @@ export default function Form({title, description, onAction}) {
 
   return (
     <div className="form-section-container">
-      <h3>Are you a parent without a nanny and looking to share?</h3>
-      <p>Leave us your name and email and we’ll update you as soon as a share becomes available in your area!</p>
+      <h3>{title}</h3>
+      <p>{description}</p>
       <form onSubmit={handleSubmit}>
         <label>
           <input
