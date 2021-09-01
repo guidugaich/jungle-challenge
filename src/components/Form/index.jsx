@@ -13,7 +13,7 @@ export default function Form({title, description, onAction}) {
   const [formSuccess, setFormSuccess] = useState(false);
   const [formAnswered, setFormAnswered] = useState(false);
 
-  function handleChange({ target }) {
+  function handleChange({target}) {
     if (target.name === 'name') setName(target.value)
     if (target.name === 'email') setEmail(target.value)
   }
@@ -67,6 +67,7 @@ export default function Form({title, description, onAction}) {
         <button
           type="submit"
           disabled={(!enableSubmitForm() && !loading)}
+          onClick={onAction}
         >
           {loading ? <Loading /> : <>Send</>}
         </button>
