@@ -55,6 +55,7 @@ export default function Form({title, description, onAction}) {
             placeholder="Your name"
             name="name"
             onChange={handleChange}
+            data-testid="name-input"
           />
         </label>
         <label>
@@ -62,12 +63,14 @@ export default function Form({title, description, onAction}) {
             placeholder="Your email"
             name="email"
             onChange={handleChange}
+            data-testid="email-input"
           />
         </label>
         <button
           type="submit"
           disabled={(!enableSubmitForm() && !loading)}
           onClick={onAction}
+          data-testid="submit-btn"
         >
           {loading ? <Loading /> : <>Send</>}
         </button>
