@@ -54,3 +54,6 @@ The `Original` is the variant in the design version and the `Alternative` is the
 
 All components are in the `./src/components` folder, and the components themselves are folders that contain both an `index.jsx` and a `style.css` file.
 
+# Testing
+
+There are 2 test cases implemented, both related to the form. They check the email validation and if the correct API call was made after submitting. Tests can be checked with `npm run test` 
