@@ -59,5 +59,6 @@
   .play-action img {
     height: 48px;
     width: 48px;
+    display: inline;
   }
 }
