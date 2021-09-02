@@ -15,7 +15,7 @@ import SectionDivider from './components/SectionDivider/'
 
 function App() {
   return (
-    <div class='page-container'>
+    <div className='page-container'>
       <Header />
       <AvailableNow />
       <Hero />
