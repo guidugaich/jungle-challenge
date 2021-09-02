@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jungle-challenge/static/css/main.6011f932.chunk.css",
-    "main.js": "/jungle-challenge/static/js/main.5c03c09c.chunk.js",
-    "main.js.map": "/jungle-challenge/static/js/main.5c03c09c.chunk.js.map",
+    "main.js": "/jungle-challenge/static/js/main.f14a74a9.chunk.js",
+    "main.js.map": "/jungle-challenge/static/js/main.f14a74a9.chunk.js.map",
     "runtime-main.js": "/jungle-challenge/static/js/runtime-main.de714d78.js",
     "runtime-main.js.map": "/jungle-challenge/static/js/runtime-main.de714d78.js.map",
     "static/js/2.011716f7.chunk.js": "/jungle-challenge/static/js/2.011716f7.chunk.js",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.de714d78.js",
     "static/js/2.011716f7.chunk.js",
     "static/css/main.6011f932.chunk.css",
-    "static/js/main.5c03c09c.chunk.js"
+    "static/js/main.f14a74a9.chunk.js"
   ]
 }
