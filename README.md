@@ -34,7 +34,7 @@ run `npm run build` to create the build folder. Also, the project is already dep
 
 # Technologies used
 
-This project ueses React (with Hooks), and pure CSS with media queries. I also used a third-party service for AB testing, as describe in the following section
+This project uses React (with Hooks), and pure CSS with media queries. I also used a third-party service for AB testing, as describe in the following section
 
 # A/B Testing
 
