@@ -18,6 +18,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .header-container {
+    background-position: -600px; 
+  }
+  
   .header-middle-section img {
     display: none;
   }
