@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/jungle-challenge/static/css/main.492507fb.chunk.css",
-    "main.js": "/jungle-challenge/static/js/main.ef1fd79a.chunk.js",
-    "main.js.map": "/jungle-challenge/static/js/main.ef1fd79a.chunk.js.map",
+    "main.css": "/jungle-challenge/static/css/main.cc29f0ed.chunk.css",
+    "main.js": "/jungle-challenge/static/js/main.046f3dcb.chunk.js",
+    "main.js.map": "/jungle-challenge/static/js/main.046f3dcb.chunk.js.map",
     "runtime-main.js": "/jungle-challenge/static/js/runtime-main.de714d78.js",
     "runtime-main.js.map": "/jungle-challenge/static/js/runtime-main.de714d78.js.map",
     "static/js/2.011716f7.chunk.js": "/jungle-challenge/static/js/2.011716f7.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.bee487a6.chunk.js": "/jungle-challenge/static/js/3.bee487a6.chunk.js",
     "static/js/3.bee487a6.chunk.js.map": "/jungle-challenge/static/js/3.bee487a6.chunk.js.map",
     "index.html": "/jungle-challenge/index.html",
-    "static/css/main.492507fb.chunk.css.map": "/jungle-challenge/static/css/main.492507fb.chunk.css.map",
+    "static/css/main.cc29f0ed.chunk.css.map": "/jungle-challenge/static/css/main.cc29f0ed.chunk.css.map",
     "static/js/2.011716f7.chunk.js.LICENSE.txt": "/jungle-challenge/static/js/2.011716f7.chunk.js.LICENSE.txt",
     "static/media/Calendar.aa43e26a.svg": "/jungle-challenge/static/media/Calendar.aa43e26a.svg",
     "static/media/Facebook.52d5df86.svg": "/jungle-challenge/static/media/Facebook.52d5df86.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.de714d78.js",
     "static/js/2.011716f7.chunk.js",
-    "static/css/main.492507fb.chunk.css",
-    "static/js/main.ef1fd79a.chunk.js"
+    "static/css/main.cc29f0ed.chunk.css",
+    "static/js/main.046f3dcb.chunk.js"
   ]
 }
